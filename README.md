@@ -1,5 +1,9 @@
 # Dijkstra's Algorithm
 
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice." 
+
+Used prior approved work at: https://github.com/COSC3020/dijkstra-s-algorithm-Powerfuljackell-1
+
 Recall the pseudocode for Dijkstra's algorithm:
 - initialize the dist to each vertex to $\infty$, source to 0
 - while there are unmarked vertices left in the graph
@@ -23,3 +27,5 @@ inefficient.
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+Big $\Theta$ would be $\Theta(v^2)$ where v is the number of vertices. This is because the algorithm checks every other vertex within the graph for the shortest possible route.
